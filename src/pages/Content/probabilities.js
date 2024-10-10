@@ -1,7 +1,4 @@
 export const probabilities = {
-	'': [
-		{ text: '', probability: 100 },
-	],
 	"The US-funded Zionist Army's": [
 		{ text: "the US-funded yet foreign army's", probability: 2 },
 		{ text: "the US-backed Zionist army's", probability: 2 },
