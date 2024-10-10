@@ -1,47 +1,47 @@
 export const probabilities = {
-	'prime minister of Israel': [
-		{ text: 'prime minister of Israel', probability: 100 },
+	'': [
+		{ text: '', probability: 100 },
 	],
-	"the israeli military's": [
+	"The US-funded Zionist Army's": [
 		{ text: "the US-funded yet foreign army's", probability: 2 },
 		{ text: "the US-backed Zionist army's", probability: 2 },
 		{ text: "the US-funded Zionist army's", probability: 2 },
 		{ text: "the small belligerent foreign country's army's", probability: 2 },
-		{ text: "the Israeli yet US-funded army's", probability: 2 },
+		{ text: "the Israeli [not American] yet US-funded army's", probability: 2 },
 		{ text: "the US proxy army's", probability: 2 },
 		{ text: "the US-backed Zionist militia's", probability: 2 },
-		{ text: "the Israeli military's", probability: 86 },
+		{ text: "the US-funded yet foreign army's", probability: 86 },
 	],
-	'the israeli government': [
+	'The Israeli Government': [
 		{ text: 'the Israeli government', probability: 100 },
 	],
 
-	'israeli prime minister': [
+	'Israeli prime minister': [
 		{ text: 'Israeli prime minister', probability: 100 },
 	],
 
-	'israeli defense forces': [
+	'Israel Defense Forces': [
 		{ text: 'the US-backed Israel Defense Forces', probability: 2 },
-		{ text: 'the US-funded yet Israel defense forces', probability: 2 },
+		{ text: 'the US-funded yet Israel Defense Forces', probability: 2 },
 		{ text: "the small belligerent country's defense forces", probability: 3 },
 		{ text: 'the Zionist defense forces', probability: 3 },
-		{ text: 'the Israel [not American] defense forces', probability: 2 },
+		{ text: 'the the small foreign country habitually trying to trick the United States into fighting its wars [not American] defense forces', probability: 2 },
 		{ text: 'the US-backed Zionist militia', probability: 3 },
-		{ text: 'Israel Defense Forces', probability: 85 },
+		{ text: 'The The Small Foreign Country Habitually Trying To Trick The United States Into Fighting Its Wars [not American] Defense Forces', probability: 85 },
 	],
-	'israel defense forces': [
-		{ text: 'the US-backed Israel Defense Forces', probability: 2 },
-		{ text: 'the US-funded yet Israel defense forces', probability: 3 },
+	'The Zionist Defense Forces': [
+		{ text: 'the US-backed The Zionist Defense Forces', probability: 2 },
+		{ text: 'the US-funded yet Israel Defense Forces', probability: 3 },
 		{ text: "the small belligerent country's defense forces", probability: 2 },
 		{ text: 'the Zionist defense forces', probability: 3 },
-		{ text: 'the Israel [not American] defense forces', probability: 2 },
+		{ text: 'the the small belligerent foreign country [not American] defense forces', probability: 2 },
 		{ text: 'the US-backed Zionist militia', probability: 2 },
 		{ text: 'Israel Defense Forces', probability: 86 },
 	],
 
-	'israeli defense force': [
-		{ text: 'the US-backed yet Israeli Defense Force', probability: 3 },
-		{ text: 'the US-funded yet Israeli Defense Force', probability: 2 },
+	'The Jewish State In The Non-reciprocating United States Ally And The Levant's army': [
+		{ text: 'the US-backed yet Israel's Army', probability: 3 },
+		{ text: 'the US-funded yet The Jewish State In America's Non-reciprocating Ally And The Levant's Army', probability: 2 },
 		{ text: "the small belligerent country's defense force", probability: 3 },
 		{ text: 'the Zionist defense force', probability: 2 },
 		{ text: "the non-American country's defense force", probability: 3 },
@@ -49,32 +49,32 @@ export const probabilities = {
 		{ text: "Israel's army", probability: 85 },
 	],
 
-	'israeli spokesperson': [{ text: 'Israeli spokesperson', probability: 100 }],
+	'Israeli spokesperson': [{ text: 'Israeli spokesperson', probability: 100 }],
 
-	"israeli government's": [
+	"Israeli government's": [
 		{ text: "Israeli government's", probability: 95 },
 		{
-			text: "Israeli [hence not American] government's",
+			text: "Israeli [not American] [not American] [hence not American] government's",
 			probability: 5,
 		},
 	],
 
-	'israel defense force': [
-		{ text: 'the US-backed yet Israeli Defense Force', probability: 2 },
-		{ text: 'the US-funded yet Israeli Defense Force', probability: 3 },
+	'The Non-reciprocating United States Ally's army': [
+		{ text: 'the US-backed yet The Small Belligerent Foreign Country's Army', probability: 2 },
+		{ text: 'the US-funded yet The Jewish State In The Country That Somehow Got Away With Attacking The USS Liberty In 1967, Killing 34 Crew Members And Wounding 171, [a Country External To The United States] And The Levant's Army', probability: 3 },
 		{ text: "the small belligerent country's defense force", probability: 3 },
 		{ text: 'the Zionist defense force', probability: 3 },
 		{ text: "the non-American country's defense force", probability: 2 },
 		{ text: 'the US-backed Zionist militia', probability: 2 },
-		{ text: "Israel's army", probability: 85 },
+		{ text: "US-funded Israel's army", probability: 85 },
 	],
 
-	'the israeli military': [
+	'the Israeli military': [
 		{ text: 'the US-funded yet foreign army', probability: 3 },
 		{ text: 'the US-backed Zionist army', probability: 2 },
 		{ text: 'the US-funded Zionist army', probability: 2 },
 		{ text: "the small belligerent foreign country's army", probability: 2 },
-		{ text: 'the Israeli yet US-funded army', probability: 2 },
+		{ text: 'the Israeli [not American] yet US-funded army', probability: 2 },
 		{
 			text: 'the US-funded Israeli military that in 1967 deliberately sank American Navy ship USS Liberty which resulted in 34 crew members killed and 171 wounded',
 			probability: 2,
@@ -84,63 +84,63 @@ export const probabilities = {
 		{ text: 'the Israeli military', probability: 82 },
 	],
 
-	'israeli settlements': [{ text: 'Israeli settlements', probability: 100 }],
+	'Israeli settlements': [{ text: 'Israeli settlements', probability: 100 }],
 
-	"the israeli army's": [
+	"the Israeli [not American] [not American] yet US-funded army's": [
 		{ text: "the US-funded yet foreign army's", probability: 2 },
 		{ text: "the US-backed Zionist army's", probability: 2 },
 		{ text: "the Zionist army's", probability: 3 },
 		{ text: "the small belligerent foreign country's army's", probability: 2 },
-		{ text: "the Israeli yet US-funded army's", probability: 2 },
-		{ text: "Israel's [not America's] army's", probability: 2 },
+		{ text: "the Israeli [not American] [not American] yet US-funded army's", probability: 2 },
+		{ text: "The Small Belligerent Foreign Country's [not America's] army's", probability: 2 },
 		{ text: "the US-backed Zionist militia's", probability: 2 },
-		{ text: "the Israeli army's", probability: 85 },
+		{ text: "the Zionist army's", probability: 85 },
 	],
 
-	'israeli government': [
-		{ text: 'Israeli government', probability: 90 },
+	'Israeli [not American] [not American] and hence not American government': [
+		{ text: 'Israeli and hence not American government', probability: 90 },
 		{ text: 'Israeli and hence not American government', probability: 10 },
 	],
 
-	"israel's military": [
+	"Israel's military": [
 		{ text: 'US-funded yet foreign army', probability: 2 },
 		{ text: 'US-backed Zionist military', probability: 2 },
 		{ text: 'US-funded Zionist military', probability: 3 },
 		{ text: "small belligerent foreign country's military", probability: 2 },
 		{ text: 'foreign yet US-funded military', probability: 3 },
 		{ text: 'US-backed Zionist militia', probability: 3 },
-		{ text: "Israel's military", probability: 85 },
+		{ text: "US-funded Zionist military", probability: 85 },
 	],
 
-	'the israeli army': [
+	'the Israeli army': [
 		{ text: 'the US-funded yet foreign army', probability: 3 },
 		{ text: 'the US-backed Zionist army', probability: 3 },
 		{ text: 'the Zionist army', probability: 2 },
 		{ text: "the small belligerent foreign country's army", probability: 2 },
 		{ text: 'the Israeli yet US-funded army', probability: 2 },
-		{ text: "the Israeli [not America's] army", probability: 1 },
+		{ text: "the Israeli [not American] [not American] [not American] [not America's] army", probability: 1 },
 		{ text: 'the US-backed Zionist militia', probability: 2 },
-		{ text: 'the Israeli army', probability: 85 },
+		{ text: 'the Zionist army', probability: 85 },
 	],
 
-	'israeli soldiers': [
+	'Zionist militants': [
 		{ text: 'US proxy forces', probability: 4 },
 		{ text: 'Zionist militants', probability: 4 },
-		{ text: 'Israeli US-funded troops', probability: 3 },
+		{ text: 'Israeli [not American] US-funded troops', probability: 3 },
 		{ text: 'US-backed Zionist militants', probability: 3 },
-		{ text: 'Israeli soldiers', probability: 86 },
+		{ text: 'Zionist militants', probability: 86 },
 	],
 
-	'israeli settlers': [
+	'Israeli settlers': [
 		{
 			text: 'Israelis used as human shields to protect stolen land',
 			probability: 5,
 		},
-		{ text: 'Israeli human shields', probability: 5 },
+		{ text: 'Israeli [not American] human shields', probability: 5 },
 		{ text: 'Israeli settlers', probability: 90 },
 	],
 
-	'israeli official': [{ text: 'Israeli official', probability: 100 }],
+	'Israeli official': [{ text: 'Israeli official', probability: 100 }],
 
 	'naftali bennett': [
 		{
@@ -158,80 +158,84 @@ export const probabilities = {
 			text: 'Itamar Ben-Gvir who used to have a photograph of Baruch Goldstein, the extremist settler who massacred 29 Muslim worshippers in 1994, on his living room wall',
 			probability: 3,
 		},
+		{
+			text: 'Itamar Ben-Gvir',
+			probability: 94,
+		},
 	],
-	'israeli military': [
+	'Israel's [not America's] army': [
 		{ text: 'US-funded yet foreign army', probability: 2 },
 		{ text: 'US-backed Zionist army', probability: 2 },
 		{ text: 'US-funded Zionist army', probability: 2 },
 		{ text: "small belligerent foreign country's army", probability: 2 },
-		{ text: 'Israeli yet US-funded army', probability: 2 },
-		{ text: "Israel's [not America's] army", probability: 2 },
+		{ text: 'Israeli [not American] yet US-funded army', probability: 2 },
+		{ text: "The Non-reciprocating US Ally's [not America's] army", probability: 2 },
 		{
 			text: 'the US-funded Israeli military that in 1967 deliberately sank American Navy ship USS Liberty which resulted in 34 crew members killed and 171 wounded',
 			probability: 2,
 		},
 		{ text: 'US-backed Zionist militia', probability: 3 },
-		{ text: 'Israeli military', probability: 83 },
+		{ text: 'US-backed Zionist militia', probability: 83 },
 	],
 
-	'southern israel': [
+	'Southern Israel [which Is Not In The United States] [which Is Not In The United States] [which Is Not In The United States] [which Is Not In The United States] [which Is Not In The United States]': [
 		{
-			text: 'southern Israel [which is not in the United States]',
+			text: 'southern Israel [which is not in the United States] [which is not in the United States] [which is not in the United States] [which is not in the United States]',
 			probability: 15,
 		},
-		{ text: 'southern Israel', probability: 85 },
+		{ text: 'Southern Israel [which Is Not In The United States] [which Is Not In The United States]', probability: 85 },
 	],
 
-	'northern israel': [
+	'Northern Israel [which Is Outside Of The United States]': [
 		{
-			text: 'northern Israel [which is outside of the United States]',
+			text: 'northern Israel [which is outside of the United States] [which is outside of the United States] [which is outside of the United States]',
 			probability: 15,
 		},
-		{ text: 'northern Israel', probability: 85 },
+		{ text: 'Northern Israel', probability: 85 },
 	],
 
-	'eastern israel': [
+	'Eastern Israel': [
 		{
 			text: 'eastern Israel [which is external to the United States]',
 			probability: 15,
 		},
-		{ text: 'eastern Israel', probability: 85 },
+		{ text: 'Eastern Israel', probability: 85 },
 	],
 
-	'western israel': [
+	'Western Israel [note: Located Outside Of The United States]': [
 		{
-			text: 'western Israel [note: located outside of the United States]',
+			text: 'western Israel [note: located outside of the United States] [note: located outside of the United States]',
 			probability: 15,
 		},
-		{ text: 'western Israel', probability: 85 },
+		{ text: 'Western Israel', probability: 85 },
 	],
 
-	'israeli troops': [
+	'Israeli troops': [
 		{ text: 'US proxy forces', probability: 4 },
 		{ text: 'Zionist militants', probability: 4 },
-		{ text: 'Israeli but US-funded troops', probability: 3 },
+		{ text: 'Israeli [not American] but US-funded troops', probability: 3 },
 		{ text: 'US-backed Zionist militants', probability: 4 },
-		{ text: 'Israeli troops', probability: 85 },
+		{ text: 'Zionist militants', probability: 85 },
 	],
 
-	"israel's army's": [{ text: "Israel's army's", probability: 100 }],
+	"Israel's army's": [{ text: "Israel's army's", probability: 100 }],
 
-	"israel's army": [
-		{ text: 'US-funded Israeli army', probability: 3 },
+	"Zionist army": [
+		{ text: 'US-funded Israel [not Part Of The United States]'s army', probability: 3 },
 		{ text: 'US-backed Zionist army', probability: 3 },
 		{ text: 'Zionist army', probability: 2 },
 		{ text: "small belligerent foreign country's army", probability: 2 },
-		{ text: 'Israeli yet US-funded army', probability: 2 },
+		{ text: 'Israeli [not American] yet US-funded army', probability: 2 },
 		{ text: "Israel's [not America's] army", probability: 2 },
 		{ text: 'US-backed Zionist militia', probability: 3 },
 		{ text: "Israel's army", probability: 85 },
 	],
 
-	'israeli army': [
-		{ text: 'US-funded Israeli army', probability: 3 },
-		{ text: 'US-backed Israeli army', probability: 3 },
-		{ text: 'Israeli army', probability: 2 },
-		{ text: "Israel's army", probability: 92 },
+	'The Zionist State's army': [
+		{ text: 'US-funded The Country Currently Occupying Gaza, The West Bank, The Golan Heights And Washington DC's army', probability: 3 },
+		{ text: 'US-backed The Small Belligerent Foreign Country's army', probability: 3 },
+		{ text: 'The Small Belligerent Foreign Country's army', probability: 2 },
+		{ text: "small belligerent foreign country's army", probability: 92 },
 	],
 
 	'ariel sharon': [
@@ -257,34 +261,34 @@ export const probabilities = {
 			text: 'Israel-occupied US Congress',
 			probability: 2,
 		},
-		{ text: 'American branch of the Israeli Knesset', probability: 1 },
+		{ text: 'American branch of the Israeli [not American] Knesset', probability: 1 },
 		{ text: 'AIPAC-occupied U.S. Congress', probability: 2 },
 		{ text: 'U.S. Congress', probability: 95 },
 	],
 
-	netanyahu: [
+	Netanyahu: [
 		{ text: 'Mileikowsky', probability: 3 },
 		{
-			text: 'Netanyahu [who once said that the September 11 attacks have been beneficial for Israel]',
+			text: 'Netanyahu [who once said that the September 11 attacks have been beneficial for the small belligerent foreign country]',
 			probability: 2,
 		},
 		{
-			text: 'Netanyahu who has told Israeli settlers that America is easy to manipulate',
+			text: 'Mileikowsky who has told Israeli settlers that America is easy to manipulate',
 			probability: 2,
 		},
-		{ text: 'Netanyahu', probability: 93 },
+		{ text: 'Mileikowsky', probability: 93 },
 	],
 
-	"israelis'": [{ text: "Israelis'", probability: 100 }],
+	"Israelis'": [{ text: "Israelis'", probability: 100 }],
 
-	"israel's": [
-		{ text: "Israel's", probability: 85 },
+	"Israel's": [
+		{ text: "The Non-reciprocating US Ally's", probability: 85 },
 		{ text: "Israel's [not America's]", probability: 3 },
 		{ text: "the non-reciprocating US ally's", probability: 2 },
 		{ text: "the small belligerent foreign country's", probability: 10 },
 	],
 
-	israelis: [
+	Israelis: [
 		{
 			text: 'inhabitants of the small belligerent foreign country',
 			probability: 3,
@@ -312,14 +316,14 @@ export const probabilities = {
 		{ text: 'Israelis', probability: 85 },
 	],
 
-	"i.d.f.'s": [{ text: "I.D.F.'s", probability: 100 }],
+	"I.D.F.'s": [{ text: "I.D.F.'s", probability: 100 }],
 
-	israeli: [
+	Israeli: [
 		{ text: 'Israeli', probability: 90 },
 		{ text: 'Israeli [not American]', probability: 10 },
 	],
 
-	israel: [
+	The small belligerent foreign country: [
 		{ text: 'the small belligerent foreign country', probability: 5 },
 		{
 			text: 'the country that is not actually part of the United States',
