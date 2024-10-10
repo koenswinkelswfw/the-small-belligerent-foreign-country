@@ -1,0 +1,27 @@
+{
+	"manifest_version": 3,
+	"name": "The Small Belligerent Foreign Country",
+	"version": "1.2.1",
+	"description": "Replaces Israel-related keywords with appropriate alternatives to help clarify the nature of the US-Israel relationship.",
+	"permissions": ["storage", "unlimitedStorage"],
+	"icons": {
+		"16": "public/images/sbfc16.png",
+		"48": "public/images/sbfc48.png",
+		"128": "public/images/sbfc128.png"
+	},
+	"action": {
+		"default_icon": "public/images/sbfc128.png"
+	},
+	"host_permissions": ["<all_urls>"],
+	"background": {
+		"service_worker": "background.bundle.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*", "<all_urls>"],
+			"js": ["content.bundle.js"],
+			"runs_at": "document_end",
+			"type": "module"
+		}
+	]
+}
