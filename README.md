@@ -10,15 +10,14 @@ The extension is intended as **political satire**, and should not be taken too s
 
 ## Installation Instructions
 
-If you are a non-technical user and just want to install the extension quickly, you can download the `dist` folder directly and upload it to Chrome. Follow these steps:
+If you are a non-technical user and just want to install the extension quickly, you can download the **sbfc.zip** file which is the zipped 'dist' foler, and upload it to Chrome. Follow these steps:
 
-### 1. Download the `dist` Folder
-- Go to the `dist` folder on GitHub.
-- Click on the `dist` folder.
-- Click the **Download** button (or right-click on the folder and select "Download ZIP").
+### 1. Download the Extension
+- In the repository, click on the **sbfc.zip** file.
+- Click the **Download** button.
 
-### 2. Extract the Files (If Downloaded as ZIP)
-- If the files are downloaded as a ZIP, extract them to a folder on your computer.
+### 2. Extract the Files
+- Extract or unpack the zip file to a folder (name it e.g. 'sbfc').
 
 ### 3. Open Chrome Extension Manager
 - Open Chrome and go to `chrome://extensions/` (or click the three dots in the top-right corner of Chrome, then go to **More Tools > Extensions**).
