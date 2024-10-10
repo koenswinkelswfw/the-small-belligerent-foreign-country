@@ -17,7 +17,7 @@ If you are a non-technical user and just want to install the extension quickly, 
 - Click the **Download** button.
 
 ### 2. Extract the Files
-- Extract or unpack the zip file to a folder (name it e.g. 'sbfc').
+- Extract or unpack the zip file, which will create a `dist` folder.
 
 ### 3. Open Chrome Extension Manager
 - Open Chrome and go to `chrome://extensions/` (or click the three dots in the top-right corner of Chrome, then go to **More Tools > Extensions**).
@@ -25,8 +25,8 @@ If you are a non-technical user and just want to install the extension quickly, 
 
 ### 4. Load the Extension
 - Click the **Load unpacked** button in the top-left corner of the Extensions page.
-- Navigate to the folder where you extracted or downloaded the `dist` folder.
-- Select the `dist/` folder.
+- Navigate to the folder where you extracted the SBFC.zip file and hence created the `dist` folder.
+- Select the `dist` folder.
 
 ### 5. Activate the Extension
 - The extension will now appear in your list of installed Chrome extensions.
