@@ -7,21 +7,18 @@ const processedNodes = new WeakSet()
 
 function chooseReplacement(replacementOptions) {
 	if (!Array.isArray(replacementOptions) || replacementOptions.length === 0) {
-		// console.error('No replacement options provided or array is empty.')
 		return ''
 	}
 
 	let totalProbability = 0
 	replacementOptions.forEach((option) => {
 		if (typeof option.probability !== 'number') {
-			// console.error('Invalid probability value', option)
 			throw new Error('Invalid probability value')
 		}
 		totalProbability += option.probability
 	})
 
 	if (totalProbability === 0) {
-		// console.error('Total probability is zero, check input probabilities.')
 		return null
 	}
 
@@ -30,12 +27,12 @@ function chooseReplacement(replacementOptions) {
 
 	for (let option of replacementOptions) {
 		cumulativeProbability += option.probability
+
 		if (randomPoint <= cumulativeProbability) {
 			return option.text
 		}
 	}
 
-	// console.error('Failed to select a replacement, this should not happen.')
 	return replacementOptions[0].text
 }
 
@@ -149,6 +146,30 @@ function applyFormatting(replacement, fullSentence, offset) {
 	return formattedWords.join(' ')
 }
 
+function isUserInputElement(node) {
+	// Check if the node itself is a text node and has a parent node
+	if (node.nodeType !== Node.TEXT_NODE || !node.parentNode) return false
+
+	// Traverse up through the parents to check if it's within an input, textarea, or contenteditable element
+	let currentElement = node.parentNode
+
+	while (currentElement) {
+		if (
+			currentElement.nodeName === 'INPUT' ||
+			currentElement.nodeName === 'TEXTAREA' ||
+			currentElement.isContentEditable
+		) {
+			return true // The node is inside an input-related or contenteditable element
+		}
+
+		// Move up to the next parent node
+		currentElement = currentElement.parentNode
+	}
+
+	// If none of these conditions are met, it's not a user input element
+	return false
+}
+
 function replaceUsingTreeWalker(observer) {
 	const walker = document.createTreeWalker(
 		document.body,
@@ -162,7 +183,8 @@ function replaceUsingTreeWalker(observer) {
 	while (walker.nextNode()) {
 		let node = walker.currentNode
 
-		if (processedNodes.has(node)) {
+		// Skip nodes that are already processed or are inside user-input elements
+		if (processedNodes.has(node) || isUserInputElement(node)) {
 			continue
 		}
 
