@@ -1,10 +1,10 @@
-# The Small Belligerent Foreign Country Extension
+# Small Belligerent Foreign Country (extension for chrome-based browsers)
 
 ## Overview
 
-"The Small Belligerent Foreign Country" (SBFC) is a Chrome-based browser extension that probabilistically replaces Israel-related keywords on a webpage with alternative terms to remind the reader that Israel is not actually part of the United States.
+Listening to US politicians and commentators it often seems that one of the primary purposes of the American government is to look out for the interests of Israel. The "Small Belligerent Foreign Country" chrome extension serves to occasionally remind the reader that Israel is in fact a separate country that is not part of the United States and whose interests do not necessarily coincide with those of the United States. The extension does this by probabilistically replacing Israel-related keywords on webpages with alternative formulations. 
 
-The extension is intended as **political satire**, and should not be taken too seriously or misinterpreted.
+Note that the extension is intended as **political satire**, and should not be taken too seriously or misinterpreted.
 
 ---
 
@@ -32,6 +32,11 @@ If you are a non-technical user and just want to install the extension quickly, 
 - The extension will now appear in your list of installed Chrome extensions.
 - Make sure it’s **enabled** and ready to use!
 
+### 6. Options
+- After the extension has been installed the Options page opens where you can turn the extension on or off, and where optionally you can specify the websites that you want the extension to run on or not run on. By default 'all' is selected which means the extension runs on all websites.
+- From now on you will find that on websites various Israel-related keywords will be occassionally replaced by alternative formulations that serve as useful reminders to the reader, most notably of the fact that Israel is not actually part of the United States. 
+- The frequency by which keywords are replaced is probabilistically determined but will tend towards 1 out of every 7 instances.
+- The specific phrases that replace the keywords are in turn probabilistically chosen from a range of options.
 ---
 
 ## Viewing the Source Code
@@ -90,15 +95,9 @@ To build the extension yourself, you will need to have the following installed o
 4. **Verify the Build**:
    - You can now compare the `dist/` folder you generated with the one included in the repository. You can use file comparison tools like `diff` (Linux/macOS) or [WinMerge](https://winmerge.org/) (Windows) to ensure there are no differences between the two folders.
 
-### Optional: Load the Built Extension in Chrome
+5. **Load the Built Extension in Chrome**
 If you'd like to load the extension you just built, follow these steps:
 
 1. Navigate to `chrome://extensions/` in Chrome.
 2. Enable **Developer Mode**.
 3. Click **Load unpacked** and select your newly built `dist/` folder.
-
----
-
-## Disclaimer
-
-This extension is intended for **entertainment purposes only**. It modifies text on web pages in a humorous way and is not meant to be taken seriously. Please use it with that understanding in mind.
