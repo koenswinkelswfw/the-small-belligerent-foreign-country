@@ -40,6 +40,7 @@ async function setInitialValuesAndUpdateKeyWords() {
 		includeExclude: 'exclude',
 		allSelect: 'all',
 		desktopMobile: 'desktop',
+		highlightReplacements: false,
 	}
 
 	const isMobile =
