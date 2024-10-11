@@ -149,11 +149,12 @@ export const ImageContainer = styled.div`
 `
 
 export const StyledLabel = styled.label`
-	font-family: 'Verdana', 'Arial', sans-serif;
-	font-size: 1em;
+	font-family: Arial, Helvetica, Roboto, sans-serif;
+	font-size: 1.35em;
 	font-weight: 500;
 	color: #333;
 	padding: 0.5em;
+	cursor: pointer;
 `
 
 export const StyledInput = styled.input`
@@ -161,4 +162,17 @@ export const StyledInput = styled.input`
 	margin: 0.25em;
 	border: 0.07em solid #ccc;
 	border-radius: 0.3em;
+	height: 1.2em;
+	width: 1.2em;
+`
+
+export const CheckboxComponentContainer = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	gap: 1.5em;
+	height: 1.9em;
+	padding: 0.13em;
+	cursor: pointer;
 `
