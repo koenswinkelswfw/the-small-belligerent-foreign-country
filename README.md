@@ -37,11 +37,16 @@ If you are a non-technical user and just want to install the extension quickly, 
 - The extension will now appear in your list of installed Chrome extensions.
 - Make sure it’s **enabled** and ready to use!
 
-### 6. Options
-- After the extension has been installed the Options page opens where you can turn the extension on or off, and where you can specify the websites that you want the extension to run on or not run on. By default 'all' is selected which means the extension runs on all websites.
-- When the extension is enabled, you will find that on websites various Israel-related keywords will be occassionally replaced by alternative formulations that serve as useful reminders to the reader, most notably of the fact that Israel is not actually part of the United States. 
-- The frequency by which keywords are replaced is probabilistically determined but will tend to be roughly 1 out of every 10 instances.
-- The specific phrases that replace the keywords are in turn probabilistically chosen from a range of options.
+- ### 6. Options
+In the Options menu you can:
+- enable or disable the extension
+- let the extension highlight on the webpage the keywords it has replaced
+- stipulate which websites you want the extension to run, or not run, on
+
+When the extension is enabled on a website, you will find that some Israel-related keywords on the site will be replaced by alternative formulations that serve as useful reminders to the reader, most notably of the fact that Israel is not actually part of the United States. 
+
+The frequency by which keywords are replaced is probabilistically determined but will tend to be roughly 1 out of every 10 instances. The specific phrases that replace the keywords are in turn probabilistically chosen from a range of options.
+
 ---
 
 ## Viewing the Source Code
