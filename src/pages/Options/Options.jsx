@@ -1,6 +1,5 @@
 import world from '../../public/images/world.png'
 import React, { useEffect, useState, useRef } from 'react'
-import './options.css'
 import validator from 'validator'
 
 import {
@@ -8,6 +7,7 @@ import {
 	CommonContainer,
 	OptionsDividerExtraBottom,
 	RadioOnOffContainer,
+	CheckboxComponentContainer,
 	ChoiceComponentContainer,
 	ComponentContainer,
 	RadioContainer,
@@ -31,6 +31,7 @@ const Options = () => {
 	const [includeExcludeSv, setIncludeExcludeSv] = useState(null)
 	const [desktopMobileSv, setDesktopMobileSv] = useState(null)
 	const inputAreaTextSvRef = useRef(inputAreaTextSv)
+	const [highlightReplacementsSv, setHighlightReplacementsSv] = useState(false)
 
 	const stateSetters = {
 		desktopMobile: setDesktopMobileSv,
@@ -39,6 +40,7 @@ const Options = () => {
 		inputAreaText: setInputAreaTextSv,
 		allSelect: setAllSelectSv,
 		includeExclude: setIncludeExcludeSv,
+		highlightReplacements: setHighlightReplacementsSv,
 	}
 
 	function getChromeStorageItems(keys) {
@@ -77,13 +79,14 @@ const Options = () => {
 	}, [])
 
 	const handleInputChange = (e) => {
-		const { type, value, name } = e.target
+		const { type, value, name, checked } = e.target
 
 		const updateStateAndChromeStorage = (stateUpdater, newValue) => {
 			stateUpdater(newValue)
 
 			chrome.storage.local.set({ [name]: newValue }, () => {
 				if (chrome.runtime.lastError) {
+					console.error(`Error updating ${name} in Chrome storage`)
 				}
 			})
 		}
@@ -92,7 +95,10 @@ const Options = () => {
 			const stateSetter = stateSetters[name]
 			if (stateSetter) {
 				updateStateAndChromeStorage(stateSetter, value)
-			} else {
+			}
+		} else if (type === 'checkbox') {
+			if (name === 'highlightReplacements') {
+				updateStateAndChromeStorage(setHighlightReplacementsSv, checked)
 			}
 		}
 	}
@@ -134,7 +140,6 @@ const Options = () => {
 		const validUrls = filterValidUrls(trimmedItems)
 		const cleanedUrls = validUrls.map(removeProtocolAndWWW)
 		const uniqueValidUrls = [...new Set(cleanedUrls)]
-		console.log('uniqueURls: ', uniqueValidUrls)
 
 		chrome.storage.local.set({ websiteList: uniqueValidUrls }, () => {
 			if (chrome.runtime.lastError) {
@@ -271,7 +276,21 @@ const Options = () => {
 							/>
 						</ChoiceComponentContainer>
 					</RadioOnOffContainer>
-
+					<OptionsDividerExtraBottom />
+					<ComponentContainer>
+						<CheckboxComponentContainer>
+							<StyledLabel htmlFor="highlightReplacements">
+								highlight
+							</StyledLabel>
+							<StyledInput
+								type="checkbox"
+								id="highlightReplacements"
+								name="highlightReplacements"
+								checked={highlightReplacementsSv}
+								onChange={handleInputChange}
+							/>
+						</CheckboxComponentContainer>
+					</ComponentContainer>
 					<OptionsDividerExtraBottom />
 					<ComponentContainer>
 						<RadioContainer>
