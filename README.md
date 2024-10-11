@@ -2,13 +2,13 @@
 
 ## Overview
 
-Listening to US politicians and commentators it often seems as if one of the primary purposes of the American government is to look out for the interests of Israel. 
+When you listen to to US politicians and commentators it often seems as if one of the primary purposes of the American government is to look out for the interests of Israel. 
 
-The "Small Belligerent Foreign Country" chrome extension (SBFC) serves to occasionally remind the reader that Israel is in fact a separate country that is not part of the United States and whose interests do not necessarily coincide with those of the United States. 
+The Small Belligerent Foreign Country (SBFC) chrome extension serves to occasionally remind the reader that Israel is in fact a separate country that is not part of the United States and whose interests do not necessarily coincide with those of the United States. 
 
-The extension does this by probabilistically replacing Israel-related keywords on webpages with alternative formulations. 
+The SBFC extension does this by probabilistically replacing Israel-related keywords on webpages with alternative formulations. 
 
-Note that the extension is intended as **political satire**, and should not be taken too seriously or misinterpreted.
+Note that the SBFC extension is intended as **political satire**, and should not be taken too seriously or misinterpreted.
 
 ---
 
